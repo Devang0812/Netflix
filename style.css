@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(59, 59, 59);
+
+
+    font-family: "Martel Sans" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+* {
+
+    font-family: "Martel Sans", sans-serif;
+}
+
+
+.s1 {
+    height: 787.500px;
+    box-sizing: border-box;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: cover;
+    display: flex;
+    background-position: center center;
+    background-repeat: none;
+}
+
+.s1_1 {
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: rgb(0, 0, 0, 30%);
+
+}
+
+nav {
+
+    max-width: 1315px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.n1 {
+    width: 200px;
+
+}
+
+.logo1 {
+    margin-left: 10px;
+
+
+}
+
+.n2main {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n2 {
+    border: 0.5px solid rgb(126, 122, 122);
+    background-color: rgb(0, 0, 0, 0.50);
+    border-radius: 5px;
+    width: 110px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.langsimb {
+    margin-top: 10px;
+}
+
+.lu_2 {
+    width: 95px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 16.5px;
+    font-weight: 600;
+
+}
+.n3:hover{
+    background-color: rgb(207, 4, 4);
+    border: 1px solid rgb(207,4,4);
+}
+.n3 {
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    border: 1px solid rgb(252, 0, 0);
+    border-radius: 5px;
+    background-color: red;
+    font-style: none;
+    height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 18px;
+}
+.a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px; 
+}
+
+.main1 {
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+.co1_1 {
+    color: white;
+    text-align: center;
+    font-size: 48.5px;
+    font-weight: 1000;
+
+}
+
+.co1_2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.co1_3 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.co1_4 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.co1_4_1 {
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    width: 400px;
+    height: 60px;
+    font-size: 18.5px;
+    margin-left: 18px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+.co1_4_2:hover{
+    background-color: rgb(207, 4, 4);
+    border: 1px solid rgb(207,4,4);
+}
+
+.co1_4_2 {
+    transition: all 0.2s ease-out;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    height: 60px;
+    width: 230px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.b{
+    font-size: 25.5px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.s2, .s3 ,.s4 ,.s5 {
+    background-color: rgb(0, 0, 0);
+    height: 620.737px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2_1 {
+    width: 1315px;
+    height: 500px;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.s2_1_1_1 {
+    font-size: 55px;
+    font-weight: 1000;
+    color: white;
+    margin: 10px 0px;
+}
+
+.s2_1_1_2 {
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    margin: 0px;
+}
+
+.s2_1_2 {
+    width: 650px;
+    height: 500px;
+    padding: 0;
+
+}
+
+.img1 {
+    position: absolute;
+    z-index: 20;
+}
+
+.vi1 {
+    position: relative;
+    top: 100px;
+    left: 85px;
+}
+
+.s3_1{
+    /* background-color: aliceblue; */
+    width: 1315px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    align-items: center;
+}
+
+.s3_1_1{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+    width: 630px;
+    height: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.s3_1_1_2{
+    border: 2px solid rgb(90, 90, 90);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    width: 355px;
+    height: 110px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;   
+}
+._2co_1{
+    font-size:18px;
+    font-weight: 800;
+    margin-top: 15px;
+    height: 23px
+    
+}
+._2co_2{
+    font-size:15px;
+    font-weight: 500;
+    color: #0071ed;
+}
+
+.img4{
+    position: absolute;
+    z-index: 20;
+}
+.vi4{
+    position: relative;
+    top: 59px;
+    left: 110px;
+
+}
+.s5_1_1{
+    font-size: 50px;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+
+}
+.s5_1_2{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+
+}
+.s6{
+    background-color: rgb(0, 0, 0);
+    height: 990.437px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s6_1{
+
+    width: 1315px;
+    height: 950px;
+    padding: 60px 0px;
+    box-sizing: border-box;
+}
+.s6_1_1{
+
+    height: 80px;
+    width: 1315px;
+    color: white;
+    font-size: 54px;
+    font-weight: 1000;
+    text-align: center;
+}
+.s6_1_2:hover{
+    background-color:#414141 ;
+}
+.s6_1_2{
+    transition: all 0.3s ease-in-out;
+
+    background-color: #2d2d2d;
+    height: 90px;
+    width: 1300px;
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.s6_1_3{
+    margin-top: 50px;
+}
+.s7{
+    background-color: rgb(0, 0, 0);
+    height: 480px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s7_1{
+    background-color: rgb(0, 0, 0);
+    width: 1330px;
+    box-sizing: border-box;
+    height: 450px;
+    padding-left: 55px;
+    
+
+}
+
+.s7_1_1{
+    margin-top: 70px;
+    padding-left: 30px;
+
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255,0.7);
+}
+.s7_1_2{
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 60px;
+}
+.l{
+    text-decoration: underline;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255,0.7);
+}
+.a1{
+    color: rgb(255, 255, 255,0.7);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.s7_1_2_1{
+
+    width: 250px;
+    
+}
+
+.s77{
+    margin-left: 20px;
+}
+.s78{
+    margin-left: 20px;
+    color:rgb(255, 255, 255,0.7);
+    font-size: 16px;
+    margin-top: 25px;
+}
